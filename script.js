@@ -52,11 +52,9 @@ document.getElementById('form1').addEventListener('submit', function (e){
     body: JSON.stringify({ name, lastName, email, message })
   })
     .then(response => {
-      document.getElementById('status').textContent = "Форма успешно отправлена!";
       console.log("Успех:", response);
     })
     .catch(error => {
-      document.getElementById('status').textContent = "Ошибка при отправке.";
       console.error("Ошибка:", error);
     });
 
@@ -113,11 +111,9 @@ document.getElementById('form2').addEventListener('submit', function (e){
     body: JSON.stringify({ name, address, comment})
   })
     .then(response => {
-      document.getElementById('status').textContent = "Форма успешно отправлена!";
       console.log("Успех:", response);
     })
     .catch(error => {
-      document.getElementById('status').textContent = "Ошибка при отправке.";
       console.error("Ошибка:", error);
     });
 
