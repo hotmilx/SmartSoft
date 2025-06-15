@@ -1,8 +1,26 @@
 [
-  { "title": "Title", "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi repudiandae doloribus illo et doloremque consequatur." },
-  { "title": "Title", "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi repudiandae doloribus illo et doloremque consequatur." },
-  { "title": "Title", "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi repudiandae doloribus illo et doloremque consequatur." },
-  { "title": "Title", "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi repudiandae doloribus illo et doloremque consequatur." },
-  { "title": "Title", "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi repudiandae doloribus illo et doloremque consequatur." },
-  { "title": "Title", "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi repudiandae doloribus illo et doloremque consequatur." }
+  {
+    "title": "Анна Петрова",
+    "text": "Очень понравился сервис! Всё понятно и быстро. Буду пользоваться ещё."
+  },
+  {
+    "title": "Иван Сидоров",
+    "text": "Простой и удобный интерфейс. Особенно понравилось, что форма адаптивная."
+  },
+  {
+    "title": "Мария Кузнецова",
+    "text": "Поддержка работает на отлично. Ответили в течение 10 минут!"
+  },
+  {
+    "title": "Алексей Смирнов",
+    "text": "Хорошее качество выполнения, приятный дизайн. Мелочи, но приятно."
+  },
+  {
+    "title": "Елена Орлова",
+    "text": "Быстрая загрузка, ничего не тормозит. Отличная работа!"
+  },
+  {
+    "title": "Дмитрий Ковалёв",
+    "text": "Порадовало, что форма не отправляется, если что-то не заполнено. Продумано!"
+  }
 ]
