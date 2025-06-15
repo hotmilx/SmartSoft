@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тестовое задание</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="main">
+
+    <h1 class="title">Тестовое задание СмартСофт</h1>
+
+    <form id="form1" class="firstForm">
+        <p class="name">Имя</p>
+        <input type="text" id="name">
+        <p class="lastName">Фамилия</p>
+        <input type="text" id="lastName">
+        <p class="email">Почта</p>
+        <input id="email" type="email" class="emailInput">
+        <p  class="message">Сообщение</p>
+        <textarea id="msg" type="text" class="messageInput"> </textarea>
+        <br>
+        <input type="submit" class="send" value="Отправить">
+    </form>
+
+    <form id="form2" class="secondForm">
+        <h2 class="orderInfo">Информация о заказе</h2>
+        <p class="deliveryTime">Мы доставим за 2 дня</p>
+        <p class="fullName">Полное имя</p>
+        <input id="fName" type="text" class="fullNameInput">
+        <p class="address">Адрес доставки</p>
+        <input id="address" type="text" class="addressInput">
+        <p class="comment">Комментарий к заказу</p>
+        <textarea id="comment" type="text" class="commentInput"></textarea>
+        <input id="checkbox" class="checkbox" type="checkbox" name="confirmOferta"> 
+        <p class="checkboxP">Принять условия договора-оферты</p>
+        <input type="submit" class="send" value="Создать заказ">
+
+    </form>
+
+    <div class="responses">
+        <h3>Отзывы</h3>
+        <p class="respPopular">Популярные отзывы наших клиентов</p>
+        <div id="responsesRow" class="responsesRow"></div>
+
+    </div>
+
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js"></script>
+</body>
+</html>     
