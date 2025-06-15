@@ -44,10 +44,22 @@ document.getElementById('form1').addEventListener('submit', function (e){
         })
     }
 
-    const request = new XMLHttpRequest();
-    request.onload = (event) => console.log("request finished");
-    request.open("GET", "http://127.0.0.1");
-    request.send();
+    const url = 'http://127.0.0.1';
+
+    fetch(url, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ name, lastName, email, message })
+  })
+    .then(response => {
+      document.getElementById('status').textContent = "Форма успешно отправлена!";
+      console.log("Успех:", response);
+    })
+    .catch(error => {
+      document.getElementById('status').textContent = "Ошибка при отправке.";
+      console.error("Ошибка:", error);
+    });
+
 
 })
 
@@ -93,10 +105,22 @@ document.getElementById('form2').addEventListener('submit', function (e){
         });
     }
 
-    const request = new XMLHttpRequest();
-    request.onload = (event) => console.log("request finished");
-    request.open("GET", "http://127.0.0.1");
-    request.send();
+     const url = 'http://127.0.0.1';
+
+    fetch(url, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ name, address, comment})
+  })
+    .then(response => {
+      document.getElementById('status').textContent = "Форма успешно отправлена!";
+      console.log("Успех:", response);
+    })
+    .catch(error => {
+      document.getElementById('status').textContent = "Ошибка при отправке.";
+      console.error("Ошибка:", error);
+    });
+
 
 })
 
